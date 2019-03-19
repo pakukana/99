@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="xxx.css">
+    <script src="xxxx.js"></script>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css?family=Lilita+One" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Margarine" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+     integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+     crossorigin="anonymous"></script>
+    
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        
+        
+        body{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr;
+            grid-gap: 0.9em;
+        }
+        
+        header{
+            background-color:;
+            grid-column: 1/2;
+            grid-row: 1/2;
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        
+        .left{
+            font-family: 'Lilita One', cursive;
+            font-size: 24px;
+        }
+        
+        .left i{
+            padding-right: 3px;
+        }
+        
+        .right{
+            font-family: 'Raleway', sans-serif;
+            font-size: 20px;
+        }
+        .main1{
+            background-color: bisque;
+            grid-column:1/2;
+            grid-row: 2/4;
+            background-image: url(99pic.jpg);
+            padding-bottom: 140px;
+            padding-top: 90px;
+        }
+        
+        .main1 img{
+            max-width: 100%;
+            max-height: 100%;
+            
+            
+        }
+        
+        #wine{
+            color:darkseagreen;
+            font-family: 'Margarine', cursive;
+            text-align: center;
+            font-size: 28px;
+        }
+        
+        #tour{
+            color: darkmagenta;
+            font-family: 'Margarine', cursive;
+            text-align: center;
+            font-size: 26px;
+        }
+        
+        .main2{
+            background-color: ;
+            grid-column: 1/2;
+            grid-row: 4/6;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 100px;
+            margin-bottom: 30px;
+        }
+        
+        .box{
+            width: 250px;
+            height: 160px;
+            background-color: darkolivegreen;
+            color: white;
+            border-radius: 5px;
+        }
+        
+        .box p{
+            text-align: center;
+            font-family: 'Baloo Chettan', cursive;
+        }
+        
+        #big{
+            font-weight: bold;
+            font-size: 22px
+        }
+        
+        
+        footer{
+            background-color:black;
+            color: aliceblue;
+            grid-column: 1/2;
+            grid-row: 6/7;
+            font-family: 'Titillium Web', sans-serif;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .b{
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+        
+        .c{
+            display: flex;
+            flex-direction: row;
+            padding-top: px;
+            padding-bottom: 4px;
+        }
+        
+        footer i{
+            padding-left: 8px;
+            padding-right: 8px;
+            font-size: 18px;
+        }
+        
+        @media(min-width:680px){
+            #wine{
+            color:darkcyan;
+            font-family: 'Margarine', cursive;
+            text-align: center;
+            font-size: 36px;    
+        }
+        }
+        
+        @media(max-width:780px){
+            .main2{
+            background-color:;
+            grid-column: 1/2;
+            grid-row: 4/6;
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            }
+            
+            .box{
+                margin-bottom: 18px;
+            }
+            
+            footer{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .c{
+                margin: 0 auto;
+            }
+        }
+        
+    </style>
+    
+    
+    
+    
+    
+</head>
+<body>
+
+<header>
+    <h3 class="left"><i class="fas fa-wine-glass-alt"></i>WINE CONNECTION</h3>
+    <div class="right">
+    <p>TEL: 08-399-0090</p>
+    <p>OPEN: 12:00-18:00</p>    
+    </div>
+</header>    
+   
+
+<div class="main1">
+    <h2 id="wine">NZ BEST WINE</h2>
+    <p id="tour">Waiheke Wine Tour</p>
+</div>    
+    
+    
+
+<div class="main2">
+   <div class="box"> 
+       <p id="big">Waiheke Island</p>
+       
+       <p>Waiheke is a haven of beautiful vineyards, olive groves and beaches</p>
+   </div>
+    
+    <div class="box"> 
+        <p id="big">NZ BEST SELECTION</p>
+        <p>TOP 10 WINE</p>
+   </div>
+    
+    <div class="box"> 
+        <p id="big">WINE OF THE YEAR</p>
+        <p>NZ WINE AWARDS 2018</p>
+   </div>
+    
+</div> 
+    
+    
+    
+    
+
+<footer>
+    <div class="a">
+    <p>About Us</p>
+    <p>Shipping Information</p>
+    </div>
+    
+    <div class="b">
+    <p>Blog</p>
+    <p>News</p>
+    <p>Event</p>    
+    </div>
+    
+    <div class="c">
+      <p><i class="fab fa-facebook"></i></p>
+      <p><i class="fab fa-twitter"></i></p>
+      <p><i class="fab fa-instagram"></i></p>   
+    </div>
+</footer>  
+    
+    
+    
+<script>
+    $(document).ready(function(){
+        $('#wine').css('display','none').show(2000);
+        $('#tour').css('display','none').show(3000);
+    });
+    
+</script>    
+    
+</body>
+</html>
